@@ -2,6 +2,9 @@ import numpy as np
 from random import shuffle
 from past.builtins import xrange
 
+# test
+print('hello')
+
 def softmax_loss_naive(W, X, y, reg):
   """
   Softmax loss function, naive implementation (with loops)

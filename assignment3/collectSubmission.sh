@@ -1,5 +1,4 @@
-files="FullyConnectedNets.ipynb
-PyTorch.ipynb
+files="PyTorch.ipynb
 TensorFlow.ipynb"
 
 for file in $files

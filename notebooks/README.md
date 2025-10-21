@@ -22,7 +22,13 @@ This collection of Jupyter notebooks provides a comprehensive introduction to re
 - **Q-Learning**: Off-policy temporal difference control
 - **Key Concepts**: Bootstrapping, temporal differences, on/off-policy learning
 
-### 4. Taxi Tutorial (`openai_gym_taxi_tutorial.ipynb`)
+### 4. Deep Q-Learning (`deep_q_learning.ipynb`)
+- **Function Approximation**: Using neural networks to approximate Q-functions
+- **Experience Replay**: Storing and sampling from past experiences
+- **Target Networks**: Using separate networks for stable learning targets
+- **Key Concepts**: Deep Q-Network (DQN), convergence challenges, high-dimensional state spaces
+
+### 5. Taxi Tutorial (`openai_gym_taxi_tutorial.ipynb`)
 - **Environment Setup**: Introduction to Gymnasium environments
 - **Q-Learning Implementation**: Complete working example
 - **Visualization**: Understanding agent behavior
@@ -58,7 +64,8 @@ This collection of Jupyter notebooks provides a comprehensive introduction to re
 1. Start with **Dynamic Programming** to understand the theoretical foundations
 2. Move to **Monte Carlo Methods** to see sample-based learning
 3. Study **Temporal Difference Learning** for more efficient online learning
-4. Complete the **Taxi Tutorial** for hands-on implementation experience
+4. Explore **Deep Q-Learning** for high-dimensional state spaces
+5. Complete the **Taxi Tutorial** for hands-on implementation experience
 
 ## Key Features
 

@@ -28,7 +28,18 @@ This collection of Jupyter notebooks provides a comprehensive introduction to re
 - **Target Networks**: Using separate networks for stable learning targets
 - **Key Concepts**: Deep Q-Network (DQN), convergence challenges, high-dimensional state spaces
 
-### 5. Taxi Tutorial (`openai_gym_taxi_tutorial.ipynb`)
+### 5. Policy Gradient Methods (`policy_gradient_methods.ipynb`)
+- **REINFORCE**: Direct policy optimization using complete returns
+- **Actor-Critic**: Combining policy gradients with value function approximation
+- **Key Concepts**: Policy gradient theorem, advantage estimation, variance reduction
+
+### 6. Proximal Policy Optimization (`ppo_tutorial.ipynb`)
+- **PPO Algorithm**: State-of-the-art policy gradient method with clipped objective
+- **Mathematical Foundations**: Clipped surrogate objective and advantage estimation
+- **Implementation**: Complete PPO agent with actor-critic architecture
+- **Key Concepts**: Sample efficiency, stability, multiple epochs, entropy regularization
+
+### 7. Taxi Tutorial (`openai_gym_taxi_tutorial.ipynb`)
 - **Environment Setup**: Introduction to Gymnasium environments
 - **Q-Learning Implementation**: Complete working example
 - **Visualization**: Understanding agent behavior
@@ -65,7 +76,9 @@ This collection of Jupyter notebooks provides a comprehensive introduction to re
 2. Move to **Monte Carlo Methods** to see sample-based learning
 3. Study **Temporal Difference Learning** for more efficient online learning
 4. Explore **Deep Q-Learning** for high-dimensional state spaces
-5. Complete the **Taxi Tutorial** for hands-on implementation experience
+5. Learn **Policy Gradient Methods** for direct policy optimization
+6. Master **Proximal Policy Optimization (PPO)** for state-of-the-art policy gradient methods
+7. Complete the **Taxi Tutorial** for hands-on implementation experience
 
 ## Key Features
 

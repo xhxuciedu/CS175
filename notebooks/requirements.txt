@@ -1,4 +1,4 @@
-gymnasium[box2d]>=0.29.0
+gymnasium[classic-control]==0.29.1
 numpy>=1.21.0
 matplotlib>=3.5.0
 jupyter>=1.0.0

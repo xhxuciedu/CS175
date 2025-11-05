@@ -47,6 +47,7 @@ ipython_config.py
 .env.development.local
 .env.test.local
 .env.production.local
+notebooks/.env
 
 # IDE
 .vscode/
